@@ -1,0 +1,56 @@
+:root {
+  /* BASIC COLORS */
+  --clr-brown: hsla(30, 7%, 16%, 0.753);
+  --clr-cream: hsl(18, 62%, 96%);
+  --clr-dark-cream: hsl(26, 8%, 82%);
+  --clr-gold: hsl(41, 66%, 72%);
+  --clr-orange: rgb(172, 101, 70);
+  --clr-text: hsl(270, 2%, 21%);
+  --clr-whiteop: hsla(0, 0%, 100%, 0.787);
+  --clr-white: hsl(0, 0%, 100%);
+}
+.card {
+  grid-template-areas: "header description";
+  width: 1200px;
+  max-width: 90%;
+}
+.card:hover {
+  transform: translateY(0);
+}
+.card__header {
+  min-width: 25rem;
+  min-height: 100%;
+}
+.card__description__wrapper {
+  padding: 1rem 2rem;
+}
+.card--title {
+  font-size: 2rem;
+}
+
+.card--description {
+  padding: 0rem 0;
+}
+.card__info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 5rem;
+}
+
+.cons--list--item,
+.pros--list--item {
+  padding: 0.2rem 0;
+  color: var(--clr-text);
+}
+.cons,
+.pros {
+  padding: 2rem 0rem;
+}
+
+.cons--title,
+.pros--title {
+  color: var(--clr-orange);
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}

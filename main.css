@@ -515,7 +515,8 @@ img {
   padding: 0 1rem;
 }
 
-.card--description {
+.card--description,
+.cons--list--item {
   font-size: clamp(0.95rem, 3vw, 1rem);
   font-family: var(--fn-fm-para);
   font-weight: var(--fnt-wght-300);
@@ -542,7 +543,7 @@ img {
 }
 .footer--title {
   margin-bottom: 1rem;
-  font-size: clamp(2rem, 8vw, 3.3rem);
+  font-size: clamp(2.5rem, 8vw, 3.3rem);
 }
 .footer--subtitle,
 .footer__f2--subtitle {
@@ -568,6 +569,8 @@ img {
 .footer__f2__contact,
 .footer__f2__adress {
   letter-spacing: 1px;
+  font-size: clamp(0.9rem, 5vw, 0.95rem);
+  line-height: 1.5;
 }
 
 .footer--item,
@@ -679,7 +682,4 @@ img {
   .f2 {
     padding-top: 6.9rem;
   }
-  /* .footer__f2--subtitle {
-    margin-top: 6rem;
-  } */
 }
